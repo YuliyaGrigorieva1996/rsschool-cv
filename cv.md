@@ -53,12 +53,12 @@ function validatePIN (pin) {
 
 ### Education
 
-**Vitebsk state medical university**
-*2013 - 2018*
-***Pharmacist***
+**Vitebsk state medical university**  
+*2013 - 2018*  
+***Pharmacist***  
 
-**TeachMeSkills**
-*November 2021 - June 2022*
+**TeachMeSkills**  
+*November 2021 - June 2022*  
 ***Front-end Developer***
 
 ### Language
