@@ -1,11 +1,13 @@
 # Yuliya Hrygoryeva
 
+![My photo](https://drive.google.com/file/d/1RwzzJjKnRNIuCYDNs5DmvElw3AZ8j_-g/view?usp=sharing)
+
 ### Contacts
 
 Phone: +375293099068
-email: yuliyahryhoryeva1996@gmail.com
-[LinkedIn](https://www.linkedin.com/in/yuliya-hryhoryeva-567837244/) 
-[Github](https://github.com/YuliyaGrigorieva1996)
+email: yuliyahryhoryeva1996@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/yuliya-hryhoryeva-567837244/)  
+[Github](https://github.com/YuliyaGrigorieva1996)  
 Discord: Yuliya(@YuliyaGrigorieva1996)
 
 ### About me
