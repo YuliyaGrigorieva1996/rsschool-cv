@@ -41,15 +41,15 @@ function validatePIN (pin) {
 ### My projects
 
 1. [Excursion landing project](https://github.com/YuliyaGrigorieva1996/html_css_project)
-    1.1 Used HTML and Scss
-2. [Calculator](https://github.com/YuliyaGrigorieva1996/Calculator)
-    2.1 Used HTML, Scss, Javascipt
-3. [Stopwatch](https://github.com/YuliyaGrigorieva1996/stopwatch)
-    3.1 Used HTML, Scss, Javascipt
-4. [Chess desk](https://github.com/YuliyaGrigorieva1996/Chess-desk)
-    4.1  3.1 Used HTML, Css, Javascipt
-5. [To do app](https://github.com/YuliyaGrigorieva1996/to-do-project)
-    5.1 Used React, Redux, React Router, Scss
+    - Used HTML and Scss
+3. [Calculator](https://github.com/YuliyaGrigorieva1996/Calculator)
+    - Used HTML, Scss, Javascipt
+5. [Stopwatch](https://github.com/YuliyaGrigorieva1996/stopwatch)
+    - Used HTML, Scss, Javascipt
+6. [Chess desk](https://github.com/YuliyaGrigorieva1996/Chess-desk)
+    - Used HTML, Css, Javascipt
+8. [To do app](https://github.com/YuliyaGrigorieva1996/to-do-project)
+    - Used React, Redux, React Router, Scss
 
 ### Education
 
