@@ -1,6 +1,6 @@
 # Yuliya Hrygoryeva
 
-![My photo](https://drive.google.com/file/d/1RwzzJjKnRNIuCYDNs5DmvElw3AZ8j_-g/view?usp=sharing)
+![My photo](https://i.postimg.cc/Wz3Mf6gc/Sd-DId-E5sc7-A.jpg)
 
 ### Contacts
 
