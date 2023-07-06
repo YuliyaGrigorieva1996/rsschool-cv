@@ -1,9 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>cv</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="list-item">Contacts<a href="#contacts" class="list-link"></a></li>
+            <li class="list-item">Summary<a href="#summary" class="list-link"></a></li>
+            <li class="list-item">Skills<a href="#skills" class="list-link"></a></li>
+            <li class="list-item">Code<a href="#code" class="list-link"></a></li>
+            <li class="list-item">Courses<a href="#courses" class="list-link"></a></li>
+            <li class="list-item">Projects<a href="#projects" class="list-link"></a></li>
+            <li class="list-item">Education<a href="#education" class="list-link"></a></li>
+            <li class="list-item">English<a href="#english" class="list-link"></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="section" id="profile">
+          <h1 class="section-title">Yuliya Hryhoryeva</h1>
+          <p>Frontend developer</p>
+          <img src="" alt="avatar">
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="list-item">Minsk, Belarus</li>
+            <li class="list-item"><a href="tel:+37529309068" class="list-link">Phone</a></li>
+            <li class="list-item"><a href="mailto:yuliyahryhoryeva1996@gmail.com" class="list-link">Email</a></li>
+            <li class="list-item"><a href="https://github.com/YuliyaGrigorieva1996" target="_blank" class="list-link">Github</a></li>
+            <li class="list-item"><a href="https://www.linkedin.com/in/yuliya-hryhoryeva-567837244/" target="_blank" class="list-link">LinkedIn</a></li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>I'm a hardworker, and also I'm responsible and open to a new knowledge person. I have experience with finding a certain data in a large amount of information. I'm constantly improving my professional skills by solving tasks, reading documentation, watching varous guides.</p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3, SCSS</li>
+            <li>JavaScipt, Typescipt</li>
+            <li>React, Redux Toolkit</li>
+            <li>GIT, Github</li>
+            <li>BEM methodology</li>
+            <li>Figma</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre>
+            <code>
+              function validatePIN (pin) {
+                let regexp = /\D/;
+                let array = pin.split('');
+                if (pin.match(regexp)) {
+                  return false
+                }
+                 return array.length === 4 || array.length === 6 ? true : false
+              
+              }
+            </code>
+          </pre>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul>
+            <li>TeachMeSkills: Frontend Developer</li>
+          </ul>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul>
+            <ol><a href="https://github.com/YuliyaGrigorieva1996/html_css_project">Tourist agency</a></ol>
+            <ol><a href="https://github.com/YuliyaGrigorieva1996/Calculator">Calculator</a></ol>
+            <ol><a href="https://github.com/YuliyaGrigorieva1996/stopwatch">Stopwatch</a></ol>
+            <ol><a href="https://github.com/YuliyaGrigorieva1996/Chess-desk"></a>Chess desk</ol>
+            <ol><a href="https://github.com/YuliyaGrigorieva1996/to-do-project">To do app</a></ol>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>Vitebsk State Medical University</p>
+        </section>
+        <section class="section" id="english">
+          <h2 class="section-title">English</h2>
+          <p>B1: Pre-Intermediate</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <p>&#169 2023</p>
+        <a href="https://github.com/YuliyaGrigorieva1996">YuliyaGrigorieva1996</a>
+        <a href="https://rs.school/js/"></a>
+      </div>
+    </footer>
+  </body>
 </html>
