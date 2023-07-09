@@ -10,6 +10,11 @@ ul, ol, li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: inherit
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -52,10 +57,11 @@ body {
 }
 
 .section-profile {
-    padding: 50px 20px 60px;
-    width: 100%;
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    padding: 50px 20px 60px;
+    
 }
 
 .section-item {
@@ -65,7 +71,6 @@ body {
 }
 
 .section-item a {
-    text-decoration: none;
     color: #7d8e95;
     transition: 0.3s;
 }
@@ -104,7 +109,7 @@ body {
 }
 
 .contacts-location::before {
-    content: '';
+        content: '';
     position: absolute;
     top: 5px;
     left: 0;
@@ -158,9 +163,6 @@ body {
     background-repeat: no-repeat; 
 }
 
-
-
-
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -168,8 +170,8 @@ body {
 }
 
 .nav-link {
-    line-height: 50px;
     padding: 0 10px;
+    line-height: 50px;
 }
 
 .main {
@@ -196,4 +198,27 @@ body {
 
 .footer {
     background-color: #ffbb98
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px
+}
+
+.github-link {
+    color: #7d8e95;
+    transition: 0.3s;
+}
+
+.github-link:hover {
+    color: #344648;
+}
+
+.link-rss {
+    width: 120px;
+    height: 45px;
+    background-image: url(./assets/svg/rs_school_js.svg);
+
 }
