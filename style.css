@@ -60,8 +60,7 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding: 50px 20px 60px;
-    
+    padding: 50px 20px 60px;   
 }
 
 .section-item {
@@ -79,7 +78,6 @@ body {
     color: #344648;
 }
 
-
 .section-title {
     font-weight: 700;
     letter-spacing: 10px;
@@ -91,6 +89,11 @@ body {
 .main-title {
     font-size: 48px;
     word-spacing: 5px;
+}
+
+.section-profile-title {
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 .section-subtitle {
@@ -197,14 +200,15 @@ body {
 
 
 .footer {
-    background-color: #ffbb98
+    background-color: #ffbb98;
+    padding: 20px;
 }
 
 .container-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10px
+
 }
 
 .github-link {
@@ -221,4 +225,68 @@ body {
     height: 45px;
     background-image: url(./assets/svg/rs_school_js.svg);
 
+}
+
+/* Adaptive */
+
+@media (max-width: 1440px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+
+@media(max-width: 900px) {
+    .section {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 16px;
+    }
+
+    .main-title {
+        font-size: 34px;
+    }
+
+    .section-title {
+        font-size: 26px;
+        letter-spacing: 5px;
+    }
+
+    .section-subtitle {
+        font-size: 24px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container-footer {
+        flex-direction: column;
+    }
+
+    .section-profile-image {
+        width: 250px;
+        height: 200px;
+        box-shadow: none;
+    }
+
+    .container-footer a {
+        line-height: 50px;
+    }
+
+    .section-code {
+        display: none;
+    }
 }
