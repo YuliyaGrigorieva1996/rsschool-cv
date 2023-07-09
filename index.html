@@ -1,9 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>cv</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section section-profile" id="profile">
+          <img src="./assets/img/SdDIdE5sc7A.jpg" class="section-profile-image" alt="avatar">
+          <div class="section-profile-title">
+            <h1 class="section-title main-title">Yuliya Hryhoryeva</h1>
+            <h3 class="section-subtitle">Frontend developer</h3>
+          </div> 
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="section-item contacts-location">Minsk, Belarus</li>
+            <li class="section-item contacts-email"><a href="mailto:yuliyahryhoryeva1996@gmail.com" class="section-link">Email</a></li>
+            <li class="section-item contacts-telegram"><a href="https://t.me/yuliya_hryhoryeva" class="section-link">Telegram</a></li>
+            <li class="section-item contacts-git"><a href="https://github.com/YuliyaGrigorieva1996" target="_blank" class="section-link">Github</a></li>
+            <li class="section-item contacts-linkedin"><a href="https://www.linkedin.com/in/yuliya-hryhoryeva-567837244/" target="_blank" class="section-link">LinkedIn</a></li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>I'm a hardworker, and also I'm responsible and open to a new knowledge person. I have experience with finding a certain data in a large amount of information. I'm constantly improving my professional skills by solving tasks, reading documentation, watching varous guides.</p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item list-item">HTML5</li>
+            <li class="section-item list-item">CSS3, SCSS</li>
+            <li class="section-item list-item">JavaScipt, Typescipt</li>
+            <li class="section-item list-item">React, Redux Toolkit</li>
+            <li class="section-item list-item">GIT, Github</li>
+            <li class="section-item list-item">BEM methodology</li>
+            <li class="section-item list-item">Figma</li>
+          </ul>
+        </section>
+        <section class="section section-code" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre>
+            <code>
+function findShort(s) {
+  let arr = s.split(' ');
+  let world = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i].length < world.length) {
+      world = arr[i];
+    }
+  }
+  return world.length;
+}
+            </code>
+          </pre>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+            <p>TeachMeSkills: Frontend Developer</p>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul class="section-list">
+            <li class="section-item list-item"><a href="https://github.com/YuliyaGrigorieva1996/html_css_project">Tourist agency</a></ol>
+            <li class="section-item list-item"><a href="https://github.com/YuliyaGrigorieva1996/Calculator">Calculator</a></li>
+            <li class="section-item list-item"><a href="https://github.com/YuliyaGrigorieva1996/stopwatch">Stopwatch</a></li>
+            <li class="section-item list-item"><a href="https://github.com/YuliyaGrigorieva1996/Chess-desk">Chess desk</a></li>
+            <li class="section-item list-item"><a href="https://github.com/YuliyaGrigorieva1996/to-do-project">To do app</a></li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>Vitebsk State Medical University</p>
+        </section>
+        <section class="section" id="english">
+          <h2 class="section-title">English</h2>
+          <p>B1: Pre-Intermediate</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container container-footer">
+        <p>&#169 2023</p>
+        <a href="https://github.com/YuliyaGrigorieva1996" class="github-link">YuliyaGrigorieva1996</a>
+        <a href="https://rs.school/js/" class="link-rss"></a>
+      </div>
+    </footer>
+  </body>
 </html>
